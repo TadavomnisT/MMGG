@@ -10,7 +10,7 @@ and I will put my REVENGed files of GGMM, I call it MMGG project :3
 I already mailed initial and original programmer and recieved no answers, metdata shows he's been offline for like 15 years! I hope he's still alive!
 ________________________________
 
-Ok... It's my first time that I wana back engineer sth, never done it before!
+Ok... It's my first time that I wanna back engineer sth, never done it before!
 
 Alright here we are, in a directory with following files:
 
@@ -21,7 +21,7 @@ GGMM.exe  GGMM.txt  GTAINTERFACE.dll
     
 ```
 
-I knwo that de pogram was created using Delfi lang, and I know nothing of Delfi, but I think it' safe ti stick into standard procedure, Which is scanning the file types:3
+I know that the program was created using Delfi lang, and I know nothing of Delfi, but I think it's safe to stick into standard procedure, Which is scanning the file types:3
 
 ```shell
 ┌──(user㉿dhcppc4)-[~/Desktop/books/MMGG]
