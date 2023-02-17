@@ -295,7 +295,7 @@ C2w;;g
 thsz
 ```
 
-Intersing stuff in head of it! Probably a bit Delfish maybe?! (I know 0 of Delfi), can't show the whole of strings if you don;t wanna have hell of a long list.
+Interesting stuff in head of it! Probably a bit Delfish maybe?! (I know 0 of Delfi), can't show the whole of strings if you don't wanna have hell of a long list.
 
 Let's see the tail:
 
@@ -353,4 +353,43 @@ DragFinish
 GetDC
 VerQueryValueA
 ```
-My goodness, my goodness the tain is more interesting!
+My goodness, my goodness the tail is more interesting!
+
+These might be the list of DLLs which the program is calling:
+```
+KERNEL32.DLL
+advapi32.dll
+comctl32.dll
+comdlg32.dll
+gdi32.dll
+glu32.dll
+gtainterface.dll
+ole32.dll
+oleaut32.dll
+opengl32.dll
+shell32.dll
+user32.dll
+version.dll
+```
+
+and these are probably the name of the functions:
+```
+LoadLibraryA
+GetProcAddress
+VirtualProtect
+ExitProcess
+RegFlushKey
+ImageList_Add
+ChooseColorA
+SaveDC
+gluPerspective
+IMGAddFile
+IsEqualGUID
+GetErrorInfo
+glEnd
+DragFinish
+GetDC
+VerQueryValueA
+```
+
+Guessing that bcuz They are `cammelCased`!
