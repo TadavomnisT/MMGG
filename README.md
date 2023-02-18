@@ -258,7 +258,7 @@ And big thanx to Fred for GTAGarage!!
 
 Awwwwwww, useful :3 What else?
 
-Now, we know am .exe file is pure machine codes, zeros and ones and blah blah blah... But take a look at plain ASCII chars inside of it:
+Now, we know a .exe file is pure machine codes, zeros and ones and blah blah blah... But take a look at plain ASCII chars inside of it:
 
 ```shell
 ┌──(user㉿dhcppc4)-[~/Desktop/books/MMGG]
@@ -1252,3 +1252,65 @@ sActiveX
 ```
 
 That is just terrific :3 Sooo much data and metadata*-*
+
+Important stuff:
+
+* `This program must be run under Win32`
+* `SOFTWARE\Borland\Delphi\RTL`
+* `Portions Copyright (c) 1983,97 Borland`
+* `Software\Borland\Locales`
+* `Software\Borland\Delphi\Locales`
+* `Exception` `EHeapException` `EOutOfMemory` `EInOutError` `EExternal` `EExternalException` `EIntError` `EDivByZero` `ERangeErrorX` `EIntOverflow` `EMathError` `EInvalidOp` `EZeroDivide` `EOverflow` `EUnderflow` `EInvalidPointer` `EInvalidCast` `EConvertError` `EAccessViolation` `EPrivilege` `EStackOverflow` `EControlC` `EVariantError` `EAssertionFailed` `EAbstractError` `EIntfCastError` `EWin32Error` `TActiveThreadArray`
+* `$TMultiReadExclusiveWriteSynchronizer`
+* `TErrorRec` `TExceptRec`
+* `GetDiskFreeSpaceExA`
+*  `EStreamError`
+`EFCreateError`
+`EFOpenErrorL`
+`EFilerError`
+`EReadError`
+`EWriteErrorT`
+`EListError`
+`EStringListError`
+`TList`
+`TThreadList`
+`TPersistent`
+`TPersistent`
+`Classes`
+`IStringsAdapter`
+`Classes`
+`TStrings`
+`TStrings`
+`Classes`
+`TStringItem`
+`TStringListH`
+`TStringList`
+`Classes`
+`TStream`
+`THandleStream`
+`TFileStream`
+`TCustomMemoryStream`
+`TMemoryStream`
+
+ * And some messages: `replacing` `file exists, proceeding...` `bigger file` `smaller or same file` `header + dir size:` `file 0 is at :` `first img block is occupied by :` `RELOCATING first img block that is occupied by :` `Runtime error     at 00000000` 
+ * `GetCurrentThreadId` `DeleteCriticalSection` `LeaveCriticalSection` `EnterCriticalSection` `InitializeCriticalSection` `VirtualFree` `VirtualAlloc` `LocalFree` `LocalAlloc` `VirtualQuery` `WideCharToMultiByte` `MultiByteToWideChar` `lstrlenA` `lstrcpyA` `LoadLibraryExA` `GetThreadLocale` `GetStartupInfoA` `GetModuleFileNameA` `GetLocaleInfoA` `GetLastError` `GetCommandLineA` `FreeLibrary` `ExitProcess` `WriteFile` `SetFilePointer` `SetEndOfFile` `RtlUnwind` `ReadFile` `RaiseException` `GetStdHandle` `GetFileSize` `GetFileType` `CreateFileA` `CloseHandle` `user32.dll` `GetKeyboardType` `LoadStringA` `MessageBoxA` `advapi32.dll` `RegQueryValueExA` `RegOpenKeyExA` `RegCloseKey` `oleaut32.dll` `VariantChangeTypeEx` `VariantCopyInd` `VariantClear` `SysStringLen` `SysFreeString` `SysReAllocStringLen` `SysAllocStringLen` `kernel32.dll` `TlsSetValue` `TlsGetValue` `TlsFree` `TlsAlloc` `LocalFree` `LocalAlloc` `GetModuleFileNameA` `kernel32.dll` `WriteFile` `WaitForSingleObject` `VirtualQuery` `SetFilePointer` `SetFileAttributesA` `SetEndOfFile` `ReadFile` `OutputDebugStringA` `LeaveCriticalSection` `InitializeCriticalSection` `GlobalUnlock` `GlobalReAlloc` `GlobalHandle` `GlobalLock` `GlobalFree` `GlobalAlloc` `GetVersionExA` `GetThreadLocale` `GetTempPathA` `GetProcAddress` `GetModuleHandleA` `GetModuleFileNameA` `GetLocaleInfoA` `GetLastError` `GetDiskFreeSpaceA` `GetCurrentThreadId` `GetCPInfo` `FormatMessageA` `FindFirstFileA` `FindClose` `FileTimeToLocalFileTime` `FileTimeToDosDateTime` `EnumCalendarInfoA` `EnterCriticalSection` `DeleteFileA` `DeleteCriticalSection` `CreateFileA` `CreateEventA` `CompareStringA` `CloseHandle` `user32.dll` `MessageBoxA` `LoadStringA` `GetSystemMetrics` `DestroyWindow` `GTAINTERFACE.dll` `IMGAddFile` `IMGDelete` `IMGExportFile` `IMGFileCount` `IMGGetThisFile` `IMGLoadImg` `IMGReDoDir` `IMGRemoveFile` `IMGReplaceFile` `IMGSetThisFile`
+* `GTAINTERFACE`
+* `Consts`
+`System`
+`Consts
+System
+SysInit
+QTypInfo
+SysUtils
+KWindows
+SysConst
+sActiveX
+3Messages
+^ClassesSysInit`
+`QTypInfo`
+`SysUtils`
+`KWindows`
+`SysConst`
+`sActiveX`
+`3Messages`
+`^Classes`
