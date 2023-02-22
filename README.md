@@ -1314,3 +1314,50 @@ sActiveX
 `sActiveX`
 `3Messages`
 `^Classes`
+
+________________________________________________
+
+So far, so cool :3
+
+But let's wind the clock back a bit! Remember when we first scanned whole directory we executed `file *` and it led us into:
+
+```
+GGMM.exe:         PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed
+```
+
+right? now there are important infos about file like `UPX compressed` or `PE32 executable (GUI) Intel 80386`.
+
+Staring with `UPX compressed` :
+
+https://en.wikipedia.org/wiki/UPX says : 
+> UPX (Ultimate Packer for Executables) is a free and open source executable packer supporting a number of file formats from different operating systems.
+
+
+and we've got `upx` command as well:
+
+```shell
+┌──(user㉿dhcppc4)-[~/Desktop/books/MMGG]
+└─$ upx                                           
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2020
+UPX 3.96        Markus Oberhumer, Laszlo Molnar & John Reiser   Jan 23rd 2020
+
+Usage: upx [-123456789dlthVL] [-qvfk] [-o file] file..
+
+Commands:
+  -1     compress faster                   -9    compress better
+  -d     decompress                        -l    list compressed file
+  -t     test compressed file              -V    display version number
+  -h     give more help                    -L    display software license
+Options:
+  -q     be quiet                          -v    be verbose
+  -oFILE write output to 'FILE'
+  -f     force compression of suspicious files
+  -k     keep backup files
+file..   executables to (de)compress
+
+Type 'upx --help' for more detailed help.
+
+UPX comes with ABSOLUTELY NO WARRANTY; for details visit https://upx.github.io
+
+```
