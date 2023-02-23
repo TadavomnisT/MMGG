@@ -1361,3 +1361,25 @@ Type 'upx --help' for more detailed help.
 UPX comes with ABSOLUTELY NO WARRANTY; for details visit https://upx.github.io
 
 ```
+
+SO I am going to make a copy of our .exe file and unpack it:
+```shell
+┌──(user㉿dhcppc4)-[~/Desktop/books/MMGG]
+└─$ cp GGMM.exe GGMM_unpacked.exe
+                                                                                                                                                                                                                                           
+┌──(user㉿dhcppc4)-[~/Desktop/books/MMGG]
+└─$ upx -d GGMM_unpacked.exe 
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2020
+UPX 3.96        Markus Oberhumer, Laszlo Molnar & John Reiser   Jan 23rd 2020
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+   1039360 <-    446976   43.00%    win32/pe     GGMM_unpacked.exe
+
+Unpacked 1 file.
+                                                                                                                                                                                                                                           
+┌──(user㉿dhcppc4)-[~/Desktop/books/MMGG]
+└─$ 
+
+```
